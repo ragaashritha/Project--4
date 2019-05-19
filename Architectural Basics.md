@@ -44,17 +44,17 @@
 **12. Concept of Transition Layers:**
     - Transition layers summarise the pixel information/ reduce number of channels
     - They are put after each convolution block once the concolution block identifies each of the following;
-    		1. Edges and gradients
-    		2. Textures
-    		3. Patterns
-    		4. Parts of objects
+    		- Edges and gradients
+    		- Textures
+    		- Patterns
+    		- Parts of objects
     - Maxpooling, 1x1 convolutions come under transition layer	
 **13. Position of Transition Layer:**
 	- Transition layer is put after each convolution block once the concolution block identifies each of the following:
-    		1. Edges and gradients
-    		2. Textures
-    		3. Patterns
-    		4. Parts of objects
+    		- Edges and gradients
+    		- Textures
+    		- Patterns
+    		- Parts of objects
 **14.Number of Epochs and when to increase them:**
     - Epoch is when loss function sees the entire training data
     - Epochs are increased when the loss can decrease further and not stagnated at a point 

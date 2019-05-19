@@ -15,11 +15,11 @@
 **4. 3x3 Convolutions:**
 	- 3x3 convolution calculates the weighted average of the 3x3 pixels of the image
  
-** 5.Receptive Field:**
+**5.Receptive Field:**
 	- Receptive field is the number of pixels each kernel is looking at
 	- Towards the end of the convolution layers, we are expected to look at the entire image i.e., our receptive field has to be equal to size of the object
 
-** 6.SoftMax:**
+**6.SoftMax:**
     - Softmax is the activation function which is used in classification models to give percentage attribution to each class in between 0 and 1
 
 **7.Learning Rate:**

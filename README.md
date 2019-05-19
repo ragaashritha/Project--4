@@ -41,7 +41,7 @@
 **11. Position of MaxPooling:**
     - In general Max pooling is done as a trasition block after a convolution block where the features like edges/gradients,textures, patterns, parts of objects are identified and needs to be summarized 
 
-** 12. Concept of Transition Layers:**
+**12. Concept of Transition Layers:**
     - Transition layers summarise the pixel information/ reduce number of channels
     - They are put after each convolution block once the concolution block identifies each of the following;
     		1. Edges and gradients
@@ -49,27 +49,27 @@
     		3. Patterns
     		4. Parts of objects
     - Maxpooling, 1x1 convolutions come under transition layer	
-** 13. Position of Transition Layer:**
+**13. Position of Transition Layer:**
 	- Transition layer is put after each convolution block once the concolution block identifies each of the following:
     		1. Edges and gradients
     		2. Textures
     		3. Patterns
     		4. Parts of objects
-** 14.Number of Epochs and when to increase them:**
+**14.Number of Epochs and when to increase them:**
     - Epoch is when loss function sees the entire training data
     - Epochs are increased when the loss can decrease further and not stagnated at a point 
 
-** 15.DropOut:**
+**15.DropOut:**
 	- Dropout is making neurons dead in order to not let model overfit by learning too intricate features 
 
-** 16.When do we introduce DropOut, or when do we know we have some overfitting:**
+**16.When do we introduce DropOut, or when do we know we have some overfitting:**
     - We intoduce dropout when we get to know that our model is overfitting
     - We can say that model is overfitting when there is huge difference between train and test accuracies
 
-** 17.The distance of MaxPooling from Prediction:**
+**17.The distance of MaxPooling from Prediction:**
     - Maxpooling has to be atleast two layers before the prediction layer
 
-** 18. The distance of Batch Normalization from Prediction:*
+**18. The distance of Batch Normalization from Prediction:*
     - Batch Normalization has to be atleast two layers before the prediction layer
 
 **19. When do we stop convolutions and go ahead with a larger kernel or some other alternative (which we have not yet covered):**

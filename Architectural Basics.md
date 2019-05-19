@@ -1,4 +1,4 @@
-# Project--4
+#  Architectural Basics
 **1.How many layers:**
 	- Number of layers is based on the size of the object. 
 	- We keep adding layers until receptive field equals size of the object 

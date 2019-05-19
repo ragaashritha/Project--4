@@ -26,7 +26,7 @@
     - Learning rate is the rate at which the weights descent in the optimization function 
     - Optimal learning rate is expected to be high in the beginning and slowly decrease in value as we reach minima of the optimization function
 
-** 8.Kernels and how do we decide the number of kernels:**
+**8.Kernels and how do we decide the number of kernels:**
 	- Kernels are the blocks which move over the image and calculate the weighted average of the image pixels.
 	- We decide number of kernels based on the number of features of th image we are looking to extract
 

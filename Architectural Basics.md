@@ -69,7 +69,7 @@
 **17.The distance of MaxPooling from Prediction:**
     - Maxpooling has to be atleast two layers before the prediction layer
 
-**18. The distance of Batch Normalization from Prediction:*
+**18. The distance of Batch Normalization from Prediction:**
     - Batch Normalization has to be atleast two layers before the prediction layer
 
 **19. When do we stop convolutions and go ahead with a larger kernel or some other alternative (which we have not yet covered):**

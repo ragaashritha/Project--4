@@ -44,23 +44,23 @@
 **12. Concept of Transition Layers:**
     - Transition layers summarise the pixel information/ reduce number of channels
     - They are put after each convolution block once the concolution block identifies each of the following;
-    		1. Edges and gradients
-    		2. Textures
-    		3. Patterns
-    		4. Parts of objects
+    		- Edges and gradients
+    		- Textures
+    		- Patterns
+    		- Parts of objects
     - Maxpooling, 1x1 convolutions come under transition layer	
 **13. Position of Transition Layer:**
 	- Transition layer is put after each convolution block once the concolution block identifies each of the following:
-    		1. Edges and gradients
-    		2. Textures
-    		3. Patterns
-    		4. Parts of objects
+    		- Edges and gradients
+    		- Textures
+    		- Patterns
+    		- Parts of objects
 **14.Number of Epochs and when to increase them:**
     - Epoch is when loss function sees the entire training data
     - Epochs are increased when the loss can decrease further and not stagnated at a point 
 
 **15.DropOut:**
-	- Dropout is making neurons dead in order to not let model overfit by learning too intricate features 
+    - Dropout is making neurons dead in order to not let model overfit by learning too intricate features 
 
 **16.When do we introduce DropOut, or when do we know we have some overfitting:**
     - We intoduce dropout when we get to know that our model is overfitting
@@ -83,5 +83,9 @@
 
 **22.When to add validation checks:**
     - 
-LR schedule and concept behind it
-Adam vs SGD
+**23.LR schedule and concept behind it:**
+    - Learning rate is the rate at which the parameters get updated in each epoch in the optimization function
+    - Lesser values of LR rate may take time for the convergence where as higher LR values can jump the convergence
+**24.Adam vs SGD:**
+   - Adam optimizer has momentum considered in it so can reach convergence in optimal way. Learning rate decreases as you go nearer to      the optima 
+   - Stochastic gradient descent updates parameters in epochs and learning rate is constant through out

@@ -49,6 +49,7 @@
     		- Patterns
     		- Parts of objects
     - Maxpooling, 1x1 convolutions come under transition layer	
+    
 **13. Position of Transition Layer:**
 	- Transition layer is put after each convolution block once the concolution block identifies each of the following:
     	- Edges and gradients,textures,Patterns,Parts of objects
@@ -81,9 +82,11 @@
 
 **22.When to add validation checks:**
     - Validatyion checks are added after each convolution/transition block
+    
 **23.LR schedule and concept behind it:**
     - Learning rate is the rate at which the parameters get updated in each epoch in the optimization function
     - Lesser values of LR rate may take time for the convergence where as higher LR values can jump the convergence
+    
 **24.Adam vs SGD:**
    - Adam optimizer has momentum considered in it so can reach convergence in optimal way. Learning rate decreases as you go nearer to      the optima 
    - Stochastic gradient descent updates parameters in epochs and learning rate is constant through out

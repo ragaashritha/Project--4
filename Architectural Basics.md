@@ -51,10 +51,8 @@
     - Maxpooling, 1x1 convolutions come under transition layer	
 **13. Position of Transition Layer:**
 	- Transition layer is put after each convolution block once the concolution block identifies each of the following:
-    		- Edges and gradients
-    		- Textures
-    		- Patterns
-    		- Parts of objects
+    	- Edges and gradients,textures,Patterns,Parts of objects
+	
 **14.Number of Epochs and when to increase them:**
     - Epoch is when loss function sees the entire training data
     - Epochs are increased when the loss can decrease further and not stagnated at a point 
@@ -82,7 +80,7 @@
     - As batch size increases the model is able to see more samples and learn better hence accuracy is expected to improve
 
 **22.When to add validation checks:**
-    - 
+    - Validatyion checks are added after each convolution/transition block
 **23.LR schedule and concept behind it:**
     - Learning rate is the rate at which the parameters get updated in each epoch in the optimization function
     - Lesser values of LR rate may take time for the convergence where as higher LR values can jump the convergence
